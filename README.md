@@ -1,8 +1,5 @@
-# Meteor Addon Template
+# Meteor Baritone Tweaks
 
-A template to allow easy usage of the Meteor Addon API.
+Various baritone related tweaks.
 
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+- Smart Sprint (allow sprint based on food saturation)
