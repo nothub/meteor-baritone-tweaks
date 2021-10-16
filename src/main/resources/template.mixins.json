@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "meteordevelopment.addons.template.mixins",
+  "package": "meteordevelopment.addons.baritonetweaks.mixins",
   "compatibilityLevel": "JAVA_16",
   "client": [
 

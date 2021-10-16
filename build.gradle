@@ -12,6 +12,10 @@ group = project.maven_group
 repositories {
     maven {
         name = "meteor-maven"
+        url = "https://maven.meteordev.org"
+    }
+    maven {
+        name = "meteor-maven-snapshots"
         url = "https://maven.meteordev.org/snapshots"
     }
 }
@@ -24,6 +28,9 @@ dependencies {
 
     // Meteor
     modImplementation "meteordevelopment:meteor-client:${project.meteor_version}"
+
+    // Baritone
+    modCompileOnly "baritone:baritone:${project.baritone_version}"
 }
 
 processResources {

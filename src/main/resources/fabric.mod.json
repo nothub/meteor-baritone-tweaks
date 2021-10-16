@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "baritone-tweaks",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor Addon API.",
+  "name": "Baritone Tweaks",
+  "description": "Various baritone related tweaks.",
   "authors": [
-    "seasnail8169"
+    "nothub"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/nothub/meteor-baritone-tweaks"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "meteordevelopment.addons.template.TemplateAddon"
+      "meteordevelopment.addons.baritonetweaks.Addon"
     ]
   },
   "mixins": [
